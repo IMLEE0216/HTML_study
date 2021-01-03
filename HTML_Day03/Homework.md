@@ -99,12 +99,7 @@ input{
 height:30px;
 }
 
-
-
-
-
-
-    </style>
+</style>
 </head>
 <body> <!--background="C:\Users\PC!\Desktop\html\image\bg17.jpg" style="background-size:100% 120%;"/bgcolor="#d5e1e3"-->
 
@@ -121,7 +116,7 @@ height:30px;
             </td>
             <td>
 
-                <form action="create new account" method="post">
+                <form action="#" method="post">
                     <fieldset style="padding: 20px; background-color:##d2d5d9;">
                         <table style="background-color:#ffffff">
                             <tr>
@@ -129,7 +124,7 @@ height:30px;
                                     <label for="n_id">아이디</label><br>
                                     <input name="input_1" style="width:210px;" value="" type="text" id="n_id"
                                            placeholder="새로운 아이디를 입력하세요." required>
-                                    <input type="button" name="input_2" value="중복체크"><br><br>
+                                    <input type="button" name="input_1" value="중복체크"><br><br>
 
                                     <label for="n_pw">비밀번호</label><br>
                                     <input name="input_3" style="width:300px;" type="password" id="n_pw"
@@ -140,7 +135,7 @@ height:30px;
                                            placeholder="비밀번호를 다시 입력하세요."
                                            required><br><br>
 
-                                    <label>비밀번호 힌트 &nbsp;&nbsp;&nbsp;</label>
+                                    <label for="hint">비밀번호 힌트 &nbsp;&nbsp;&nbsp;</label>
                                     <select style="width:210px; height:30px" name="input_5">
                                         <option value="0" selected>비밀번호 힌트</option>
                                         <option value="1">학창시절 나의 별명은?</option>
@@ -178,12 +173,12 @@ height:30px;
 
                                     <label>휴대전화</label><br>
                                     <select name="input_9" style="height:30px;" required>
-                                        <option value="" selected>---선택---</option>
+                                        <option value=" " selected>---선택---</option>
                                         <option value="SKT">SKT</option>
                                         <option value="LG">LG</option>
                                         <option value="KT">KT</option>
                                     </select>
-                                    <input style="width:220px;" name="input_10" value="" type="text"
+                                    <input style="width:220px;" name="input_10" value=" " type="text"
                                            placeholder="'-'는 빼고 입력해주세요. ex)01012341234"
                                            required><br><br>
 
@@ -192,7 +187,8 @@ height:30px;
                                             <td style="width:60px;"></td>
                                             <td><input type="submit" name="input_11" value="회원가입"></td>
                                             <td><input type="reset" name="input_12" value="초기화"></td>
-                                            <td><a href="Homework_02(5~9).html"><input type="button" name="input_13" value="취소"></a></td>
+                                            <td><a href="Homework_02(5~9).html"><input type="button" name="input_13"
+                                                                                       value="취소"></a></td>
                                         </tr>
 
                                     </table>
