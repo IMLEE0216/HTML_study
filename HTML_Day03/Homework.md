@@ -68,3 +68,4 @@
 </body>
 </html>
 ```
+![homework02_log](https://user-images.githubusercontent.com/73643473/103483017-b73f4480-4e27-11eb-8036-6fca14b99478.png)
