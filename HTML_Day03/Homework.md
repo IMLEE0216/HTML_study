@@ -100,7 +100,10 @@ height:30px;
 }
 
 
-    
+
+
+
+
     </style>
 </head>
 <body> <!--background="C:\Users\PC!\Desktop\html\image\bg17.jpg" style="background-size:100% 120%;"/bgcolor="#d5e1e3"-->
@@ -114,9 +117,7 @@ height:30px;
         </tr>
         <tr>
             <td>
-                <fieldset style="background-color: #000000;">
-                    <img src="C:\Users\PC!\Desktop\html\image\bg15.jpg" width="335px;" height="550px;">
-                </fieldset>
+                <img src="C:\Users\PC!\Desktop\html\image\bg15.jpg" width="370px;" height="573px;">
             </td>
             <td>
 
@@ -126,41 +127,41 @@ height:30px;
                             <tr>
                                 <td>
                                     <label for="n_id">아이디</label><br>
-                                    <input style="width:210px;" name="id" type="text" id="n_id"
+                                    <input name="input_1" style="width:210px;" value="" type="text" id="n_id"
                                            placeholder="새로운 아이디를 입력하세요." required>
-                                    <input type="button" value="중복체크"><br><br>
+                                    <input type="button" name="input_2" value="중복체크"><br><br>
 
                                     <label for="n_pw">비밀번호</label><br>
-                                    <input name="pw" style="width:300px;" type="password" id="n_pw"
-                                           placeholder="새로운 비밀번호를 입력하세요." required><br><br>
+                                    <input name="input_3" style="width:300px;" type="password" id="n_pw"
+                                           value="" placeholder="새로운 비밀번호를 입력하세요." required><br><br>
 
                                     <label for="r_pw">비밀번호 재확인</label><br>
-                                    <input name="pw_re" style="width:300px;" type="password" id="r_pw"
+                                    <input name="input_4" value="" style="width:300px;" type="password" id="r_pw"
                                            placeholder="비밀번호를 다시 입력하세요."
                                            required><br><br>
 
-                                    <label for="hint">비밀번호 힌트 &nbsp;&nbsp;&nbsp;</label>
-                                    <select style="width:210px; height:30px">
-                                        <option>비밀번호 힌트</option>
-                                        <option>학창시절 나의 별명은?</option>
-                                        <option>아버지 성함은?</option>
-                                        <option>어머니 성함은?</option>
-                                        <option>가족 관계는?</option>
+                                    <label>비밀번호 힌트 &nbsp;&nbsp;&nbsp;</label>
+                                    <select style="width:210px; height:30px" name="input_5">
+                                        <option value="0" selected>비밀번호 힌트</option>
+                                        <option value="1">학창시절 나의 별명은?</option>
+                                        <option value="2">아버지 성함은?</option>
+                                        <option value="3">어머니 성함은?</option>
+                                        <option value="4">가족 관계는?</option>
                                     </select><br>
-                                    <input style="width:300px;" name="hint" type="text" id="hint"
+                                    <input style="width:300px;" name="input_6" value="" type="text" id="hint"
                                            placeholder="힌트를 입력하세요."><br><br>
 
                                     <table>
                                         <tr>
                                             <td><label>이름(성별)</label></td>
                                             <td>
-                                                <input type="radio" name="gender" value="male">
+                                                <input type="radio" name="input_7" value="male">
                                             </td>
                                             <td>
                                                 <span style="font-size:20px">남</span>
                                             </td>
                                             <td>
-                                                <input type="radio" name="gender" value="female">
+                                                <input type="radio" name="input_7" value="female">
                                             </td>
                                             <td>
                                                 <span style="font-size:20px">여</span>
@@ -168,30 +169,30 @@ height:30px;
                                             <td colspan="2"><label>생년월일</label></td>
                                         </tr>
                                         <tr>
-                                            <td colspan="6"><input name="name" type="text" placeholder="이름을 입력하세요."
+                                            <td colspan="6"><input name="input_8" value="" type="text"
+                                                                   placeholder="이름을 입력하세요."
                                                                    required></td>
-                                            <td colspan="2"><input name="birth" type="date" required></td>
+                                            <td colspan="2"><input name="input_9" value="" type="date" required></td>
                                         </tr>
                                     </table>
 
                                     <label>휴대전화</label><br>
-                                    <select name="network" style="height:30px;" required>
-                                        <option>---선택---</option>
+                                    <select name="input_9" style="height:30px;" required>
+                                        <option value="" selected>---선택---</option>
                                         <option value="SKT">SKT</option>
                                         <option value="LG">LG</option>
                                         <option value="KT">KT</option>
                                     </select>
-                                    <input style="width:220px;" name="phone" type="text"
+                                    <input style="width:220px;" name="input_10" value="" type="text"
                                            placeholder="'-'는 빼고 입력해주세요. ex)01012341234"
                                            required><br><br>
 
                                     <table>
                                         <tr>
                                             <td style="width:60px;"></td>
-                                            <td><input type="submit" value="회원가입"></td>
-                                            <td><input type="reset"></td>
-                                            <td><a href="Homework_02(5~9).html"><input type="button" value="취소"></a>
-                                            </td>
+                                            <td><input type="submit" name="input_11" value="회원가입"></td>
+                                            <td><input type="reset" name="input_12" value="초기화"></td>
+                                            <td><a href="Homework_02(5~9).html"><input type="button" name="input_13" value="취소"></a></td>
                                         </tr>
 
                                     </table>
