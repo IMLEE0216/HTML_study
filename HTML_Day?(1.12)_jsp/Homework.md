@@ -29,7 +29,6 @@
 		width:650px;
 		min-height: 380px;
 		margin-left: 28%;
-		background-color: Yellow;
 		}
 		
 		h1 {
